@@ -1,0 +1,2 @@
+Hello Guys
+I created this project 4 years ago. This esp32 device connect to a ST7735 LCD display, BMP280 sensor. It has a wifi manager for wifi connection, get the time from Network Time Server for correct date and time. It also read the sensor data such as room temperature, humidity, air pressure. All these data shown on the LCD display. 
