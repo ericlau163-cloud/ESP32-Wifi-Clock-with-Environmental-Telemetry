@@ -1,7 +1,7 @@
 # ESP32 WiFi Clock with Environmental Telemetry
 
 ## Overview
-This project showcases an ESP32-based WiFi clock with environmental telemetry. The device displays the current date, time, temperature, humidity, air pressure, and more on an LCD display.
+This project showcases an ESP32-based WiFi clock with environmental telemetry. The device displays the current date, time, temperature, humidity, air pressure, and more on an LCD display. It also has a web server for showing the current telemery. 
 
 ## Project Background
 Originally created 4 years ago, this project has evolved into a fully functional environmental monitoring system. The ESP32 microcontroller interfaces with a ST7735 LCD display and a BMP280 sensor to provide real-time data.
