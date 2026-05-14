@@ -1,2 +1,35 @@
-Hello Guys
-I created this project 4 years ago. This esp32 device connect to a ST7735 LCD display, BMP280 sensor. It has a wifi manager for wifi connection, get the time from Network Time Server for correct date and time. It also read the sensor data such as room temperature, humidity, air pressure. All these data shown on the LCD display. 
+# ESP32 WiFi Clock with Environmental Telemetry
+
+## Overview
+This project showcases an ESP32-based WiFi clock with environmental telemetry. The device displays the current date, time, temperature, humidity, air pressure, and more on an LCD display.
+
+## Project Background
+Originally created 4 years ago, this project has evolved into a fully functional environmental monitoring system. The ESP32 microcontroller interfaces with a ST7735 LCD display and a BMP280 sensor to provide real-time data.
+
+## Features
+- **Real-Time Clock**: Synchronizes with Network Time Server for accurate date and time
+- **Environmental Monitoring**: Displays temperature, humidity, and air pressure readings
+- **WiFi Connectivity**: Built-in WiFi manager for easy network connection setup
+- **LCD Display**: ST7735 color display for clear visualization of sensor data
+- **BMP280 Sensor**: Provides comprehensive environmental measurements
+
+## Hardware Components
+- **Microcontroller**: ESP32
+- **Display**: ST7735 LCD Display
+- **Sensor**: BMP280 (Temperature, Humidity, Pressure)
+
+## Getting Started
+1. Connect the hardware components as specified in the circuit diagram
+2. Configure WiFi settings using the built-in WiFi manager
+3. Upload the firmware to your ESP32
+4. Monitor environmental data on the LCD display
+
+## Files
+- `wifiClock_LCDv2.ino` - Main firmware code
+- `index.h` - Header file with configuration and utilities
+
+## License
+[Add your license information here]
+
+## Contributing
+Contributions are welcome! Feel free to submit issues or pull requests.
